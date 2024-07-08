@@ -1,0 +1,1 @@
+For windows navigate to command prompt and type 'npm -v' or 'node -v' and check for version
