@@ -1,5 +1,4 @@
 # Appium with Java
-
 ## For setting up node follow the steps from here.
 
 Appium is an open-source tool for automating mobile applications on iOS and Android platforms.
@@ -9,4 +8,4 @@ Below are few of the software/platform/api we need to setup.
 
 
 1. [Java](/src/setup/JAVA_SETUP.MD)
-2. Node - 
+2. [Node](/src/setup/NODE_SETUP.MD) - 
