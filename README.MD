@@ -8,4 +8,5 @@ Below are few of the software/platform/api we need to setup.
 
 
 1. [Java](/src/setup/JAVA_SETUP.MD)
-2. [Node](/src/setup/NODE_SETUP.MD) - 
+2. [Node](/src/setup/NODE_SETUP.MD)
+3. [Appium](/src/setup/APPIUM_SETUP.MD)
