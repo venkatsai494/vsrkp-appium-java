@@ -1,0 +1,2 @@
+This can be used to validate proper environment setup for Android and iOS automation, and identify any common configuration issues. This would help to diagnose and fix common Node, iOS and Android configuration issues. To install this we need to run the command `npm install -g appium-doctor`.
+After successfull installation you can check the version using command `appium-doctor --version`
