@@ -28,9 +28,16 @@ In case you want to check any of the driver updates you can use the command `app
 
 Other appium commands can be used as below
 
-| Flag               | Description                                    | Use Case                                                               | Example                        |
-|--------------------|------------------------------------------------|------------------------------------------------------------------------|--------------------------------|
-| --address          | IP address for the server to listen on         | Bind to specific network interface or make accessible on other devices | appium --address 192.168.1.100 |
-| --port             | Port number for the server to listen on        | Change default port (4723) or for network configuration                | appium --port 4724             |
-| --session-override | Allow multiple sessions with same capabilities | Run multiple tests on same device/emulator simultaneously              | appium --session-override      |
+| Flag                      | Description                                    | Use Case                                                               | Example                                                |
+|---------------------------|------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------|
+| --address                 | IP address for the server to listen on         | Bind to specific network interface or make accessible on other devices | appium --address 192.168.1.100                         |
+| --port                    | Port number for the server to listen on        | Change default port (4723) or for network configuration                | appium --port 4724                                     |
+| --session-override        | Allow multiple sessions with same capabilities | Run multiple tests on same device/emulator simultaneously              | appium --session-override                              |
+| --log-level               | Set log level for the server                   | Control amount of information logged (debug, info, etc.)               | appium --log-level debug                               |
+| --log-timestamp           | Prefix log lines with timestamps               | Easier tracking of events in the log                                   | appium --log-timestamp                                 |
+| --local-timezone          | Set server's time zone                         | Ensure accurate timestamps, especially for different time zones        | appium --local-timezone America/Los_Angeles            |
+| --chromedriver-executable | Path to ChromeDriver executable                | For Chrome or Chromium-based web automation                            | appium --chromedriver-executable /path/to/chromedriver |
+| --allow-insecure          | Enable specific insecure features              | Use carefully as it introduces security risks                          | appium --allow-insecure get_server_logs                |
+| --relaxed-security        | Enable all insecure features                   | Only use in development or with trusted apps                           | appium --relaxed-security                              |
 
+The above table is generated using [this](https://www.tablesgenerator.com/markdown_tables#) website.
