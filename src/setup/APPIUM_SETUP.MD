@@ -26,3 +26,11 @@ To list out all the drivers for appium we can use the command `appium driver lis
 To install any of the driver we can use the command `appium driver install uiautomator2` (this would install the uiautomator2 driver for appium)
 In case you want to check any of the driver updates you can use the command `appium driver list -updates`
 
+Other appium commands can be used as below
+
+| Flag               | Description                                    | Use Case                                                               | Example                        |
+|--------------------|------------------------------------------------|------------------------------------------------------------------------|--------------------------------|
+| --address          | IP address for the server to listen on         | Bind to specific network interface or make accessible on other devices | appium --address 192.168.1.100 |
+| --port             | Port number for the server to listen on        | Change default port (4723) or for network configuration                | appium --port 4724             |
+| --session-override | Allow multiple sessions with same capabilities | Run multiple tests on same device/emulator simultaneously              | appium --session-override      |
+
