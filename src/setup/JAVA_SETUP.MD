@@ -1,6 +1,6 @@
 # JAVA SETUP
 
-[.. back to README.MD](/src/README.MD)
+[.. back to README.MD](README.MD)
 
 For windows navigate to command prompt and type ```java -version``` and check for version
 In case of version not shown we need to install Java from oracle website. For this project we have used Jdk 14.0.1
