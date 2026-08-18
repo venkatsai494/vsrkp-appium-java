@@ -10,6 +10,7 @@ Below are few of the software/platform/api we need to setup.
 1. [Java](/src/setup/JAVA_SETUP.MD)
 2. [Node](/src/setup/NODE_SETUP.MD)
 3. [Appium](/src/setup/APPIUM_SETUP.MD)
+4. [Android SDK](/src/setup/ANDROID_SDK_SETUP.MD)
 
 
 
